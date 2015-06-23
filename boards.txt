@@ -1,0 +1,23 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.rfloader=Wireless bootloader
+#menu.cpu=Processor
+
+##############################################################
+nrg1.name=panStamp NRG w/ cc430f5137 v.1.1
+nrg1.build.core=panstamp
+nrg1.upload.tool=tilib
+nrg1.upload.protocol=tilib
+nrg1.upload.maximum_size=32640
+nrg1.program.tool=tilib
+nrg1.program.protocol=tilib
+nrg1.program.maximum_size=32640
+nrg1.erase.tool=tilib
+nrg1.erase.protocol=tilib
+nrg1.build.mcu=cc430f5137
+nrg1.build.f_cpu=12000000L
+nrg1.build.variant=panstamp_nrg_1.1
+nrg1.build.board=PANSTAMP_NRG
+
+nrg1.ldscript=ldscript
+##############################################################
